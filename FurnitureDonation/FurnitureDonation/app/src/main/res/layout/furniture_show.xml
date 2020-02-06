@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/show_furniture_image"
+            android:layout_width="match_parent"
+            android:layout_height="403dp"
+            app:srcCompat="@drawable/ic_image_black_24dp" />
+
+        <TextView
+            android:id="@+id/show_furniture_details"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Furniture Details"
+            android:inputType="textPersonName"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/show_furniture_measurement"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Furniture Measurement"
+            android:inputType="textPersonName"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/show_furniture_type"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Furniture Type"
+            android:inputType="textPersonName"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/AR_preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AR Preview" />
+
+        <Button
+            android:id="@+id/select_furniture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Furniture" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

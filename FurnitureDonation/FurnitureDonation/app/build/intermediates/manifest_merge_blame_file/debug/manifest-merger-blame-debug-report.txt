@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.furnituredonation"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:5:5-65
+11-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:6:22-77
+13
+14    <uses-feature
+14-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:8:5-10:35
+15        android:name="android.hardware.camera.ar"
+15-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:9:9-50
+16        android:required="true" />
+16-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:10:9-32
+17
+18    <application
+18-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:12:5-45:19
+19        android:allowBackup="true"
+19-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:13:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.0.1] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\b35a21a82e523a7e28f73ed752c69dcd\core-1.0.1\AndroidManifest.xml:22:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:14:9-43
+23        android:label="Chong Choy Jun(1719899)"
+23-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:15:9-48
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:16:9-54
+25        android:supportsRtl="true"
+25-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:17:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:18:9-40
+28        <meta-data
+28-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:19:9-21:50
+29            android:name="com.google.ar.core"
+29-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:20:13-46
+30            android:value="required" />
+30-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:21:13-37
+31
+32        <activity
+32-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:22:9-30:20
+33            android:name="com.example.furnituredonation.SplashScreenActivity"
+33-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:23:13-49
+34            android:label="Chong Choy Jun(1719899)" >
+34-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:24:13-52
+35            <intent-filter>
+35-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:25:13-29:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:26:17-69
+36-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:26:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:28:17-77
+38-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:28:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.example.furnituredonation.AR" />
+41-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:32:9-40
+41-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:32:19-37
+42        <activity
+42-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:33:9-34:54
+43            android:name="com.example.furnituredonation.FurnitureList"
+43-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:33:19-48
+44            android:label="Chong Choy Jun(1719899)" />
+44-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:34:13-52
+45        <activity android:name="com.example.furnituredonation.FurnitureDetails" />
+45-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:35:9-54
+45-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:35:19-51
+46        <activity android:name="com.example.furnituredonation.RegisterAccount" />
+46-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:36:9-53
+46-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:36:19-50
+47        <activity android:name="com.example.furnituredonation.MainActivity" />
+47-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:37:9-50
+47-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:37:19-47
+48        <activity android:name="com.example.furnituredonation.ChoosePic" />
+48-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:38:9-47
+48-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:38:19-44
+49        <activity android:name="com.example.furnituredonation.DonatingOrFinding" />
+49-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:39:9-55
+49-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:39:19-52
+50        <activity android:name="com.example.furnituredonation.FurnitureShow" />
+50-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:40:9-51
+50-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:40:19-48
+51        <activity
+51-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:41:9-42:54
+52            android:name="com.example.furnituredonation.Admin"
+52-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:41:19-40
+53            android:label="Chong Choy Jun(1719899)" />
+53-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:42:13-52
+54        <activity android:name="com.example.furnituredonation.Selected" />
+54-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:43:9-45
+54-->D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:43:19-43
+55
+56        <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+57        <meta-data
+57-->[com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:33:9-35:41
+58            android:name="com.google.ar.core.min_apk_version"
+58-->[com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:34:13-62
+59            android:value="190519000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+59-->[com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:35:13-38
+60        <activity
+60-->[com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:37:9-43:80
+61            android:name="com.google.ar.core.InstallActivity"
+61-->[com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:38:13-62
+62            android:configChanges="keyboardHidden|orientation|screenSize"
+62-->[com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:39:13-74
+63            android:excludeFromRecents="true"
+63-->[com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:40:13-46
+64            android:exported="false"
+64-->[com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:41:13-37
+65            android:launchMode="singleTop"
+65-->[com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:42:13-43
+66            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+66-->[com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:43:13-77
+67    </application>
+68
+69</manifest>

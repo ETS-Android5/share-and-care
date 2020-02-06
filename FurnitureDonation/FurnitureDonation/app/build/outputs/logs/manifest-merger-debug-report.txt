@@ -1,0 +1,260 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:2:1-47:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\53c8de786cd4d5d61723f16ec0c28999\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0e25e1d163d66044779ea4be78b46a3c\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\315770aabd74a03e08b6375bdea75d37\jetified-sceneform-ux-1.10.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\26c1a63e5bb956d09507171720a79a42\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\87fa86b8b1f13209acea806c00bd5c02\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\38670ef549273755fa95de58b8bffb48\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\4d91cf897e5f4d9d9e88a434f373eea2\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\7e82d79240aefd7433ec59c2d6b6035b\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\377e9bdcc6feb2934819724c16ddac81\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\98e11077bd9321f8b7e5863e643b2ce9\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\690767ef9b66ff1a77cfef6c1281749c\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\dfc8d1054cabfd43c4df034657f3c986\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\409c5dd5b4278378a8af3e51a7ec9347\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\07c021b72420a54c162a5556ade28352\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\bc9d46746a1118a85306af44854fccad\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\deccbb546de231a42ae3bb07d7e26923\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\b35a21a82e523a7e28f73ed752c69dcd\core-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\b67ce13d31a7cd952dd87fa1498628da\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\08a907b27276d16a92e89e16607a8bd5\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\3398257e1b93fc531a3d19ec89dcbf82\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\6c7cea38517e7c2d7a1b7a393075fc46\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\48468cf2dac0e51c8fddbb8c4c9485b5\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\11615fd20f16c9aa292b937571035ad6\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\961c88dd2ad6f8847a6127e5f988bf2b\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\3708db3f4d0689897234e98b82ea6d19\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\4509087f4e4a004867edba3228166030\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\1c5a1038477aef783127a7dfec8e40ec\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\07567ed747200f293f4281ad0d6c3483\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ar.sceneform:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\af8ed85587f7b1aa345a8c114d5b9e18\jetified-core-1.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:rendering:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\9235326df39cd6865415d77c4b4955fa\jetified-rendering-1.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:sceneform-base:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\37c02e21a3982b2484636a622fb0f84c\jetified-sceneform-base-1.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:filament-android:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\4f7defb0b4c3c46ab49ee2f3aed18cb3\jetified-filament-android-1.10.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:17:1-46:12
+INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:2:1-47:12
+	package
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:2:1-47:12
+		INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:2:1-47:12
+		INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:6:22-77
+uses-feature#android.hardware.camera.ar
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:8:5-10:35
+	android:required
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:10:9-32
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:9:9-50
+application
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:12:5-45:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0e25e1d163d66044779ea4be78b46a3c\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0e25e1d163d66044779ea4be78b46a3c\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.1] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\b35a21a82e523a7e28f73ed752c69dcd\core-1.0.1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\b35a21a82e523a7e28f73ed752c69dcd\core-1.0.1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\b67ce13d31a7cd952dd87fa1498628da\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\b67ce13d31a7cd952dd87fa1498628da\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:30:5-44:19
+MERGED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:30:5-44:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\b35a21a82e523a7e28f73ed752c69dcd\core-1.0.1\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:15:9-48
+	android:roundIcon
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:18:9-40
+meta-data#com.google.ar.core
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:19:9-21:50
+	android:value
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:20:13-46
+activity#com.example.furnituredonation.SplashScreenActivity
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:label
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:23:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:28:27-74
+activity#com.example.furnituredonation.AR
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:32:9-40
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:32:19-37
+activity#com.example.furnituredonation.FurnitureList
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:33:9-34:54
+	android:label
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:34:13-52
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:33:19-48
+activity#com.example.furnituredonation.FurnitureDetails
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:35:9-54
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:35:19-51
+activity#com.example.furnituredonation.RegisterAccount
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:36:9-53
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:36:19-50
+activity#com.example.furnituredonation.MainActivity
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:37:9-50
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:37:19-47
+activity#com.example.furnituredonation.ChoosePic
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:38:9-47
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:38:19-44
+activity#com.example.furnituredonation.DonatingOrFinding
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:39:9-55
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:39:19-52
+activity#com.example.furnituredonation.FurnitureShow
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:40:9-51
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:40:19-48
+activity#com.example.furnituredonation.Admin
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:41:9-42:54
+	android:label
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:42:13-52
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:41:19-40
+activity#com.example.furnituredonation.Selected
+ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:43:9-45
+	android:name
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml:43:19-43
+uses-sdk
+INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\53c8de786cd4d5d61723f16ec0c28999\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\53c8de786cd4d5d61723f16ec0c28999\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0e25e1d163d66044779ea4be78b46a3c\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0e25e1d163d66044779ea4be78b46a3c\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\315770aabd74a03e08b6375bdea75d37\jetified-sceneform-ux-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\315770aabd74a03e08b6375bdea75d37\jetified-sceneform-ux-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\26c1a63e5bb956d09507171720a79a42\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\26c1a63e5bb956d09507171720a79a42\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\87fa86b8b1f13209acea806c00bd5c02\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\87fa86b8b1f13209acea806c00bd5c02\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\38670ef549273755fa95de58b8bffb48\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\38670ef549273755fa95de58b8bffb48\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\4d91cf897e5f4d9d9e88a434f373eea2\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\4d91cf897e5f4d9d9e88a434f373eea2\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\7e82d79240aefd7433ec59c2d6b6035b\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\7e82d79240aefd7433ec59c2d6b6035b\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\377e9bdcc6feb2934819724c16ddac81\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\377e9bdcc6feb2934819724c16ddac81\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\98e11077bd9321f8b7e5863e643b2ce9\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\98e11077bd9321f8b7e5863e643b2ce9\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\690767ef9b66ff1a77cfef6c1281749c\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\690767ef9b66ff1a77cfef6c1281749c\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\dfc8d1054cabfd43c4df034657f3c986\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\dfc8d1054cabfd43c4df034657f3c986\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\409c5dd5b4278378a8af3e51a7ec9347\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\409c5dd5b4278378a8af3e51a7ec9347\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\07c021b72420a54c162a5556ade28352\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\07c021b72420a54c162a5556ade28352\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\bc9d46746a1118a85306af44854fccad\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\bc9d46746a1118a85306af44854fccad\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\deccbb546de231a42ae3bb07d7e26923\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\deccbb546de231a42ae3bb07d7e26923\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\b35a21a82e523a7e28f73ed752c69dcd\core-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\b35a21a82e523a7e28f73ed752c69dcd\core-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\b67ce13d31a7cd952dd87fa1498628da\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\b67ce13d31a7cd952dd87fa1498628da\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\08a907b27276d16a92e89e16607a8bd5\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\08a907b27276d16a92e89e16607a8bd5\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\3398257e1b93fc531a3d19ec89dcbf82\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\3398257e1b93fc531a3d19ec89dcbf82\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\6c7cea38517e7c2d7a1b7a393075fc46\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\6c7cea38517e7c2d7a1b7a393075fc46\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\48468cf2dac0e51c8fddbb8c4c9485b5\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\48468cf2dac0e51c8fddbb8c4c9485b5\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\11615fd20f16c9aa292b937571035ad6\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\11615fd20f16c9aa292b937571035ad6\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\961c88dd2ad6f8847a6127e5f988bf2b\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\961c88dd2ad6f8847a6127e5f988bf2b\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\3708db3f4d0689897234e98b82ea6d19\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\3708db3f4d0689897234e98b82ea6d19\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\4509087f4e4a004867edba3228166030\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\4509087f4e4a004867edba3228166030\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\1c5a1038477aef783127a7dfec8e40ec\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\1c5a1038477aef783127a7dfec8e40ec\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\07567ed747200f293f4281ad0d6c3483\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\07567ed747200f293f4281ad0d6c3483\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\af8ed85587f7b1aa345a8c114d5b9e18\jetified-core-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\af8ed85587f7b1aa345a8c114d5b9e18\jetified-core-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:rendering:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\9235326df39cd6865415d77c4b4955fa\jetified-rendering-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:rendering:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\9235326df39cd6865415d77c4b4955fa\jetified-rendering-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:sceneform-base:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\37c02e21a3982b2484636a622fb0f84c\jetified-sceneform-base-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:sceneform-base:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\37c02e21a3982b2484636a622fb0f84c\jetified-sceneform-base-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:filament-android:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\4f7defb0b4c3c46ab49ee2f3aed18cb3\jetified-filament-android-1.10.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ar.sceneform:filament-android:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\4f7defb0b4c3c46ab49ee2f3aed18cb3\jetified-filament-android-1.10.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:26:5-28:41
+MERGED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:26:5-28:41
+INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\FurnitureDonation\FurnitureDonation\app\src\main\AndroidManifest.xml
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:33:9-35:41
+	android:value
+		ADDED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:35:13-38
+	android:name
+		ADDED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:34:13-62
+activity#com.google.ar.core.InstallActivity
+ADDED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:37:9-43:80
+	android:excludeFromRecents
+		ADDED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:40:13-46
+	android:launchMode
+		ADDED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:42:13-43
+	android:exported
+		ADDED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:41:13-37
+	android:configChanges
+		ADDED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:39:13-74
+	android:theme
+		ADDED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:43:13-77
+	android:name
+		ADDED from [com.google.ar:core:1.10.0] C:\Users\Shun Jie\.gradle\caches\transforms-2\files-2.1\0c42a3ba208a615e2372a6f97a114e98\core-1.10.0\AndroidManifest.xml:38:13-62

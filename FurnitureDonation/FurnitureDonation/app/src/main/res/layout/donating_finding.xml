@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/finding_furniture"
+            android:layout_width="match_parent"
+            android:layout_height="243dp"
+            android:text="Finding Furniture"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/donating_furniture"
+            android:layout_width="match_parent"
+            android:layout_height="268dp"
+            android:text="Donating Furniture"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

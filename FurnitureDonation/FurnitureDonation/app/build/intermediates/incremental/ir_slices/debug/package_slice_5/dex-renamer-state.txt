@@ -1,0 +1,4 @@
+#Thu Aug 15 12:36:13 SGT 2019
+base.0=D\:\\MAD\\ASP\\FurnitureDonation\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex
