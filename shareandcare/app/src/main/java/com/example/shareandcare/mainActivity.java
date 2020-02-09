@@ -51,9 +51,8 @@ public class mainActivity extends AppCompatActivity {
         loginCreateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent;
-                intent = new Intent(mainActivity.this, registerAccount.class);
-                startActivity(intent);
+                Intent i = new Intent(mainActivity.this, registerAccount.class);
+                startActivity(i);
             }
         });
     }

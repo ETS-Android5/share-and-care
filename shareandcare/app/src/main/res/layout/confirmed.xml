@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your order has been confirmed." />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please hang tight as our staff will contact you within 2-3 working days." />
+
+    <Button
+        android:id="@+id/confirmed_Return_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RETURN" />
+</LinearLayout>

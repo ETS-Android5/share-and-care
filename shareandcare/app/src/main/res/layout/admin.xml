@@ -5,34 +5,24 @@
     android:orientation="vertical"
     android:layout_margin="25dp">
 
-
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView18"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="25dp"
         android:textStyle="bold"
-        android:text="LISTINGS" />
+        android:text="ADMIN" />
 
     <TextView
-        android:id="@+id/listings_Empty"
+        android:id="@+id/admin_Empty"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="There are currently no listings." />
+        android:text="There are currently no orders to be fufilled." />
 
     <ListView
-        android:id="@+id/listings_List"
+        android:id="@+id/admin_List"
         android:layout_width="match_parent"
-        android:layout_height="600dp">
-
-    </ListView>
-
-    <Button
-        android:id="@+id/listings_Add_Listing_Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ADD LISTING" />
-
+        android:layout_height="match_parent" />
 
 </LinearLayout>
