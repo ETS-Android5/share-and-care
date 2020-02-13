@@ -6,7 +6,11 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+
 public class listingHelper extends SQLiteOpenHelper {
+
+    private boolean x = false;
+
     public listingHelper(Context context) {
         super(context, "listing.db", null, 2);
     }
@@ -23,7 +27,7 @@ public class listingHelper extends SQLiteOpenHelper {
     }
 
     public Cursor getAll() {
-        return (getReadableDatabase().rawQuery("select _id, listingTitle, listingTag, listingDescription, listingDimensionX, listingDimensionY, listingDimensionZ, listingImage from listing order by listingTag", null));
+        return (getReadableDatabase().rawQuery("select _id, listingTitle, listingTag, listingDescription, listingDimensionX, listingDimensionY, listingDimensionZ, listingImage from listing where listingStatus is null order by listingTag", null));
     }
 
     public Cursor getAllConfirmed() {
@@ -48,7 +52,15 @@ public class listingHelper extends SQLiteOpenHelper {
         tag = tag.toLowerCase();
         String[] args = {tag};
 
-        return (getReadableDatabase().rawQuery("select _id, listingTitle, listingTag, listingDescription, listingDimensionX, listingDimensionY, lisitngDimensionZ, listingImage from listing where listingTag =?", args));
+        return (getReadableDatabase().rawQuery("select _id, listingTitle, listingTag, listingDescription, listingDimensionX, listingDimensionY, listingDimensionZ, listingImage from listing where listingTag =?", args));
+    }
+
+    public void setSearchStat(boolean status) {
+        x = status;
+    }
+
+    public boolean getSearchStat() {
+        return x;
     }
 
     public void updateListingStatus(String title) {

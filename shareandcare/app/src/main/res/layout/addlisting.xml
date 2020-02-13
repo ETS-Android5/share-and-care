@@ -34,12 +34,12 @@
         android:layout_height="wrap_content"
         android:text="Tag:" />
 
-    <EditText
+    <AutoCompleteTextView
         android:id="@+id/add_Tag"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName" />
+        android:hint="Select a category"
+        android:completionThreshold="1"/>
 
     <TextView
         android:id="@+id/textView17"
@@ -58,7 +58,7 @@
         android:id="@+id/textView13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dimensions:" />
+        android:text="Dimensions (cm):" />
 
     <LinearLayout
         android:layout_width="match_parent"

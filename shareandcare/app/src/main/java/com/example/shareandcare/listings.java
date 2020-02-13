@@ -13,11 +13,15 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.CursorAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.lang.reflect.Array;
 
 public class listings extends Activity {
 
@@ -25,8 +29,14 @@ public class listings extends Activity {
     private listingHelperAdapter adapter = new listingHelperAdapter(c);
     private listingHelper helper = new listingHelper(this);
     private ListView list;
-    private Button listingsAddListingButton;
+    private Button listingsAddListingButton, listingsSearchButton;
+    private AutoCompleteTextView listingsSearch;
     private TextView empty = null;
+    private String searchStr = null;
+
+    private static final String[] TAGS = new String[] {
+            "Sofa", "Table", "Bed", "Storage", "Tool"
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,9 +45,32 @@ public class listings extends Activity {
 
         empty = (TextView)findViewById(R.id.listings_Empty);
         list = (ListView)findViewById(R.id.listings_List);
+
         listingsAddListingButton = (Button)findViewById(R.id.listings_Add_Listing_Button);
-        c = helper.getAll();
+        listingsSearchButton = (Button)findViewById(R.id.listings_Search_Button);
+        listingsSearch = (AutoCompleteTextView)findViewById(R.id.listings_Search);
+        //c = helper.getAll();
         list.setAdapter(adapter);
+
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1, TAGS);
+        listingsSearch.setAdapter(arrayAdapter);
+
+        listingsSearchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (listingsSearch.getText().toString() != "") {
+                    searchStr = listingsSearch.getText().toString();
+                    Intent intent = new Intent(listings.this, listings.class);
+                    intent.putExtra("search", searchStr);
+                    helper.setSearchStat(true);
+                    //finish();
+                    startActivity(intent);
+                } else if (listingsSearch.getText().toString() == null){
+                    helper.setSearchStat(false);
+                }
+            }
+        });
 
         list.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
@@ -45,8 +78,9 @@ public class listings extends Activity {
                 helper.delete(String.valueOf(l));
                 //helper.resetDatabase();
                 Toast.makeText(listings.this, "Deleted", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(listings.this, listings.class);
                 finish();
-                startActivity(getIntent());
+                startActivity(intent);
                 return true;
             }
         });
@@ -79,21 +113,22 @@ public class listings extends Activity {
         if (c != null) {
             c.close();
         }
-        c = helper.getAll();
+        if (helper.getSearchStat() == true) {
+            c = helper.getByTag(getIntent().getStringExtra("search"));
+        } else if (helper.getSearchStat() == false) {
+            c = helper.getAll();
+        }
+
 
         if (c.getCount() > 0) {
             empty.setVisibility(View.INVISIBLE);
         }
         adapter.swapCursor(c);
-
-        //_music.start();
     }
 
     @Override
     protected void onPause(){
         super.onPause();
-        // _music.release();
-
     }
 
     @Override

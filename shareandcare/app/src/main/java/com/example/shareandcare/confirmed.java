@@ -19,8 +19,7 @@ public class confirmed extends Activity {
         returnButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(confirmed.this, listings.class);
-                startActivity(i);
+                finish();
             }
         });
     }

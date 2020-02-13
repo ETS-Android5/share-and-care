@@ -7,13 +7,16 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
 public class addListing extends Activity {
-    private EditText addTitle, addTag, addDimension_X, addDimension_Y, addDimension_Z, addDescription;
+    private EditText addTitle, addDimension_X, addDimension_Y, addDimension_Z, addDescription;
+    private AutoCompleteTextView addTag;
     private ImageView addAddedImage;
     private Button  addImageButton, addConfirmButton;
     private listingHelper helper = new listingHelper(this);
@@ -24,13 +27,17 @@ public class addListing extends Activity {
     private static final int IMAGE_PICK_CODE = 1;
     private static final int PERMISSION_CODE = 1001;
 
+    private static final String[] TAGS = new String[] {
+      "Sofa", "Table", "Bed", "Storage", "Tool"
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.addlisting);
 
         addTitle = (EditText)findViewById(R.id.add_Title);
-        addTag = (EditText)findViewById(R.id.add_Tag);
+        addTag = (AutoCompleteTextView)findViewById(R.id.add_Tag);
         addDescription = (EditText)findViewById(R.id.add_Description);
         addDimension_X = (EditText)findViewById(R.id.add_Dimension_X);
         addDimension_Y = (EditText)findViewById(R.id.add_Dimension_Y);
@@ -38,6 +45,10 @@ public class addListing extends Activity {
         addAddedImage = (ImageView)findViewById(R.id.add_Added_Image);
         addImageButton = (Button)findViewById(R.id.add_Image_Button);
         addConfirmButton = (Button)findViewById(R.id.add_Confirm_Button);
+
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1, TAGS);
+        addTag.setAdapter(arrayAdapter);
 
         addImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,11 +74,8 @@ public class addListing extends Activity {
                 addDimensionZStr = addDimension_Z.getText().toString();
 
                 helper.addListing(addTitleStr, addTagStr, addDescriptionStr, addDimensionXStr, addDimensionYStr, addDimensionZStr, uriStr);
-                finish();
 
-                Intent i;
-                i = new Intent(addListing.this, listings.class);
-                startActivity(i);
+                finish();
             }
         });
     }

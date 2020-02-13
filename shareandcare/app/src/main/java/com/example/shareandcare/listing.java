@@ -37,6 +37,7 @@ public class listing extends Activity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(listing.this, ar.class);
+                i.putExtra("title", listingTitle.getText().toString());
                 startActivity(i);
             }
         });
@@ -47,6 +48,7 @@ public class listing extends Activity {
 
                 helper.updateListingStatus(listingTitle.getText().toString());
                 Intent i = new Intent(listing.this, confirmed.class);
+                finish();
                 startActivity(i);
             }
         });

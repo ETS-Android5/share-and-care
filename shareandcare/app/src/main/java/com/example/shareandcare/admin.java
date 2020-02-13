@@ -60,6 +60,8 @@ public class admin extends Activity {
 
         if(c.getCount() > 0) {
             adminEmpty.setVisibility(View.INVISIBLE);
+        } else if (c.getCount() < 1) {
+            adminEmpty.setVisibility(View.VISIBLE);
         }
         adapter.swapCursor(c);
     }

@@ -38,8 +38,7 @@ public class adminListing extends Activity {
             public void onClick(View v) {
                 helper.delete(getIntent().getStringExtra("id"));
                 Toast.makeText(getApplicationContext(), "Delivery Confirmed", Toast.LENGTH_SHORT).show();
-                Intent i = new Intent(adminListing.this, admin.class);
-                startActivity(i);
+                finish();
             }
         });
 
